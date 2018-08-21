@@ -2,9 +2,9 @@
 
 Normally as programmer, you dont have to worry about bit level operations, as 
 the byte is the lowest level of data you can access and manipulate, you can always 
-think in level of bytes, but something you might need to operate in a single bit. 
+think in level of bytes, but sometimes you might need to operate in a single bit.
 In C/C++ there is not data type call 'BIT', so every operation to a single bit must 
-be apply at least to a complete byte, 
+be apply at least to a complete byte.
 
 The following six are the bitwise operators for work at a bit-level
 
