@@ -13,8 +13,10 @@ int main() {
     printBits(i);
     multiplyByTwo(i);
     dividedByTwo(i);
-    inspectBits(i) ? std::cout << "consecutive bits" << std::endl : std::cout << "no consecutive bits" << std::endl;
+    inspectBits(i) ? std::cout << "consecutive bits found" << std::endl : std::cout << "no consecutive bits found" << std::endl;
     setOneBit(i, 32);
     unsetOneBit(i,32);
+    toogleBit(i,1);
+
     return 0;
 }

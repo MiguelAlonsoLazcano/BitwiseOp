@@ -86,7 +86,8 @@ void setOneBit(unsigned int n, int position){
  * */
 void toogleBit(unsigned int n, int position){
     std::cout << "toggle bit " << position -1 << std::endl;
-    n = (n )
+    n = (n ^ (1 << (position-1)));
+    printBits(n);
 }
 
 #endif //BITS_BITUTILS_H
